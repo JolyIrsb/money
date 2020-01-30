@@ -1,3 +1,3 @@
 from django.shortcuts import render
-def name(request):
+def fl(request):
     return render(request, '/templates/money/fl.html', {})
